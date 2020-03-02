@@ -37,7 +37,7 @@ If you don't want to install Ubuntu 16 on your machine, it should be possible to
 1. Run `docker pull tacd/miro_sim` to get the MiRo simulator Docker image
 2. Run `docker run -it --net host -v $XAUTHORITY:/root/.Xauthority -v /tmp/.X11-unix:/tmp/.X11-unix tacd/miro_sim` to launch the Docker image
 
-Alternatively, see the [macOS installation guide](./Installation/MDK installation on MAC OS.pdf) for installation on that platform.
+Alternatively, see the [macOS installation guide](https://github.com/MiRo-projects/MDK-Installation/blob/master/Installation/MDK%20installation%20on%20MAC%20OS.pdf) for installation on that platform.
 
 ### Useful commands
 The following commands all require a running `roscore` instance for use with a virtual MiRo
