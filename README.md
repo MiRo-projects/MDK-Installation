@@ -16,13 +16,13 @@ That's it! If you've not used Git before then there's a couple of guides linked 
 ### In the lab
 The computers in B.09 already have all the necessary software installed and configured so you can write and test code on either a physical or virtual MiRo robot. In either case, you will need to configure some environment variables to get everything working: 
 
-|                   | Physical                   | Virtual                  |
+| Variable          | Physical                   | Virtual                  |
 | ----------------- | -------------------------- | ------------------------ |
 | `ROS_IP`          | Your computer's local IP   | Your computer's local IP |
 | `ROS_MASTER_URI`  | `http://<MiRo's IP>:11311` | `http://localhost:11311` |
 | `MIRO_ROBOT_NAME` | The robot's ROS name       | `miro`                   |
 
-You can view a physical robot's ROS name by using the [Android app](https://play.google.com/store/apps/details?id=com.consequentialrobotics.miroapp_2p0). The recommended way to set these variables is to edit `~/.miro2/config/user_setup.	bash`; check that none of them have been overridden in `~/.bashrc`.
+You can view a physical robot's ROS name by using the [Android app](https://play.google.com/store/apps/details?id=com.consequentialrobotics.miroapp_2p0). The recommended way to set these variables is to edit `~/.miro2/config/user_setup.bash`; check that none of them have been overridden in `~/.bashrc`.
 
 ### On your personal computer
 We use [ROS](https://www.ros.org) to interface with both physical and virtual MiRos and [Gazebo](http://gazebosim.org) as a simulation environment, so these are the two additional software packages you'll need to test your code on your personal machine. There are two ways to get going:
