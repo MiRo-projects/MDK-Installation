@@ -55,8 +55,8 @@ The following commands all require a running `roscore` instance for use with a v
 1. `cd ~/mdk/share/python/miro2/core`
 2. `./client_demo.py - caml & client_demo.py - camr & client_demo.py`
 
-## Environment variables
-If PyCharm is not inheriting the system environment variables, it may be easier to copy and paste this list instead of trying to wrangle the PyCharm launcher into behaving. Note that the first five variables will need updating to match your desired configuration.
+### Environment variables
+If PyCharm is not inheriting the system environment variables, it may be easier to copy and paste this list instead of trying to wrangle the PyCharm launcher into behaving. Note that the first five variables will need to be updated according to your desired configuration.
 ```
 MIRO_STATIC_IP=127.0.0.1
 MIRO_ROBOT_NAME=miro
