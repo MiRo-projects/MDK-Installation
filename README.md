@@ -18,7 +18,7 @@ That's it! If you've not used Git before then there's a couple of guides linked 
 Please see [the wiki](https://github.com/MiRo-projects/MDK-Installation/wiki) for more specific instructions on setting up your workstation to interact with MiRo. In particular, [this page](https://github.com/MiRo-projects/MDK-Installation/wiki/Running-code-on-MiRo-from-PyCharm) explains how to run code directly on a physical robot from your personal computer.
 
 ## Useful commands
-The following commands all require a running `roscore` instance for use with a virtual MiRo.
+The following commands all require a running `roscore` instance for use with a virtual MiRo. If you are using a physical robot this will not be necessary as long as the ROS environment variables are set correctly.
 
 **Launch the MiRo simulator:**
 `~/mdk/sim/launch_sim.sh`
